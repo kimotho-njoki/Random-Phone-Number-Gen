@@ -9,7 +9,7 @@ class PhoneNumbers extends React.Component {
       <div>
         <List>
         {phoneNumbers.map((phoneNumber) => {
-          return <List.Item>{phoneNumber}</List.Item>
+          return <List.Item key={Math.random()}>{phoneNumber}</List.Item>
         })}
         </List>
       </div>
