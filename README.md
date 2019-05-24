@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen.svg?branch=master)](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen)
+
 ## Random Phone Number Generator
 
 ### Features
