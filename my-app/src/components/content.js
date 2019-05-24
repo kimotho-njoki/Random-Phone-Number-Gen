@@ -3,12 +3,13 @@ import { Button, Divider, Form, Label } from 'semantic-ui-react';
 import FileSaver from 'file-saver';
 import PhoneNumbers from './phone-numbers-view';
 
+
 class Content extends React.Component {
   state = {
     limit : 1,
     phoneNumbers: [],
-    maxValue: null,
-    minValue: null,
+    maxValue: '',
+    minValue: '',
     isDisabled: true
   }
 
@@ -109,12 +110,12 @@ class Content extends React.Component {
         <Button onClick={this.maxValue} className="Stats-max-btn" disabled={isDisabled}>
           show maximum value
         </Button>
-        <span>{maxValue}</span>
+        <span>{maxValue && "0" + maxValue}</span>
         <Divider />
         <Button onClick={this.minValue} className="Stats-min-btn" disabled={isDisabled}>
           show minimum value
         </Button>
-        <span>{minValue}</span>
+        <span>{minValue && "0" + minValue}</span>
         <Divider />
 
         <Button onClick={this.sortAsc} className="Sort-btn" disabled={isDisabled}>
