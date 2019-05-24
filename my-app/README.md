@@ -7,6 +7,6 @@
 - Can sort the numbers in either ascending or descending order
 - Can view the maximum or minimum value
 
-> Clone the repository
+> Clone the repository </br>
 > `cd` into `my-app` folder and install dependencies using `npm start`
 > Run `npm start` to start the application which will now run on `http://localhost:3000`
