@@ -15,6 +15,7 @@ describe('Test cases for Content component', () => {
     phoneNumbers: [],
     maxValue: '',
     minValue: '',
+    status: '',
     isDisabled: true
   })
 
@@ -83,13 +84,12 @@ describe('Test cases for Content component', () => {
   });
 
   it('shound call exportPhoneNumbers', () => {
-    const exportPhoneNumbersSpy = jest.spyOn(
-      wrapper.instance(), 'exportPhoneNumbers'
-    );
-    
+    const button = wrapper.find('.Export-btn');
+
     global.URL.createObjectURL = jest.fn();
 
-    wrapper.instance().exportPhoneNumbers();
-    expect(exportPhoneNumbersSpy.mock.calls.length).toEqual(1);
+    instance.exportPhoneNumbers()
+    button.simulate('click');
+    expect(instance.state.status).toEqual('saved');
   });
 });
