@@ -8,5 +8,5 @@
 - Can view the maximum or minimum value
 
 > Clone the repository </br>
-> `cd` into `my-app` folder and install dependencies using `npm start`
-> Run `npm start` to start the application which will now run on `http://localhost:3000`
+> `cd` into `my-app` folder and install dependencies using `npm start`</br>
+> Run `npm start` to start the application which will now run on `http://localhost:3000`</br>
