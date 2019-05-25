@@ -10,6 +10,7 @@ class Content extends React.Component {
     phoneNumbers: [],
     maxValue: '',
     minValue: '',
+    status: '',
     isDisabled: true
   }
 
@@ -79,6 +80,9 @@ class Content extends React.Component {
    if (phoneNumbers.length > 0) {
      let blob = new Blob(phoneNumbers, { type: "text/plain;charset=utf-8" })
      FileSaver.saveAs(blob, "phone numbers.txt")
+     this.setState({
+       status: 'saved'
+     })
    }
  };
 
