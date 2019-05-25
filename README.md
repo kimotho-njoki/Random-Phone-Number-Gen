@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen.svg?branch=master)](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen)
-
-[![Coverage Status](https://coveralls.io/repos/github/kimotho-njoki/Random-Phone-Number-Gen/badge.svg?branch=master)](https://coveralls.io/github/kimotho-njoki/Random-Phone-Number-Gen?branch=master)
+[![Build Status](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen.svg?branch=master)](https://travis-ci.org/kimotho-njoki/Random-Phone-Number-Gen)   [![Coverage Status](https://coveralls.io/repos/github/kimotho-njoki/Random-Phone-Number-Gen/badge.svg?branch=master)](https://coveralls.io/github/kimotho-njoki/Random-Phone-Number-Gen?branch=master)
 
 ## Random Phone Number Generator
 
