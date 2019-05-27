@@ -12,3 +12,4 @@
 > Clone the repository </br>
 > `cd` into `my-app` folder and install dependencies using `npm start`</br>
 > Run `npm start` to start the application which will now run on `http://localhost:3000`</br>
+> To run tests and view coverage, run `npm run coveralls`
